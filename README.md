@@ -13,11 +13,6 @@ collapse.Numbers([]int{1,2,3,6,8,9})
 **Type**: `[]int`   
 Sorted slice of integers
 
-### arg2
-
-**Type**: `[]int`   
-Some good description
-
 ### @return
 
 **Type**: `[][]int`   
