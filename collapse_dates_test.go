@@ -7,6 +7,11 @@ import (
 )
 
 func Test_DatesOnly(t *testing.T) {
+	_, err := DatesOnly([]string{"2025-01", "2025-01-02"})
+	require.Error(t, err)
+	
+	// ------------------------------
+	
 	tests := []struct {
 		name  string
 		input []string
