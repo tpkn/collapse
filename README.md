@@ -22,7 +22,7 @@ Sorted slice of integers
 
 
 ```go
-collapse.Numbers([]string{"2025-01-01", "2025-01-02", "2025-01-03", "2025-01-04"})
+collapse.DatesOnly([]string{"2025-01-01", "2025-01-02", "2025-01-03", "2025-01-04"})
 ```
 
 ### arg1
